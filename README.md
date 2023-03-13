@@ -26,19 +26,19 @@ git clone https://github.com/ericsonweah/us-ski-and-snowboard-nodejs-test-soluti
 ```
 
 
-#### 1. cd in the project directory 
+#### 2. cd in the project directory 
 
 ```bash
 cd mvc
 
 ```
 
-#### 2. Install dependencies
+#### 3. Install dependencies
 ```bash
  yarn 
 ```
 
-#### 3. General SQLite Data (doing it once is recommended)
+#### 4. General SQLite Data (doing it once is recommended)
 ```bash
  node ./data/generate.js
 ```
@@ -46,7 +46,7 @@ cd mvc
 ### Start the Serverr
  <br />
 
-#### 1 Use the cluster server (recommended)
+#### 1. Use the cluster server (recommended)
  <br />
 
 ```bash
