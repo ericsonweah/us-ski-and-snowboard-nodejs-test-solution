@@ -2,6 +2,9 @@
 
 Although in the begining thought of hundreds of different ways to sold this problem, I decided to go with an MVC (Model-View-Controller) Design Patterns. And the reason for that is maintenability (and testability if needed). In order to understand the design patterns used thoughout this project you must have solid graps of Javascript ES6, Javascript Functional Programming, the Adapter Design Patters (the Javascript ES6 way), NodeJs Stream APIs, especially the Transform API, and The EventEmitter API.
 
+![frontend](https://raw.githubusercontent.com/ericsonweah/us-ski-and-snowboard-nodejs-test-solution/master/public/images/app.png "Frontend")
+
+
 ### Installation
 
  <br />
@@ -1575,7 +1578,4 @@ module.exports = Base;
 
  
 ```
-#### CLI screenshot (terminal)
-
-![frontend](https://raw.githubusercontent.com/ericsonweah/us-ski-and-snowboard-nodejs-test-solution/master/public/images/app.png "Frontend")
 
