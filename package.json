@@ -20,7 +20,7 @@
     "redis": "^4.6.5",
     "socket.io": "^4.6.1",
     "sqlite": "^4.0.23",
-    "sqlite3": "^5.1.4",
+    "sqlite3": "^5.1.5",
     "supertest": "^6.3.3"
   },
   "devDependencies": {
