@@ -1577,5 +1577,5 @@ module.exports = Base;
 ```
 #### CLI screenshot (terminal)
 
-![cli](https://www.mongodb-model.com/frontend/img/cli/cli-terminal-screenshot.png "Model CLI")
+![frontend](https://raw.githubusercontent.com/ericsonweah/us-ski-and-snowboard-nodejs-test-solution/master/public/images/app.png "Frontend")
 
