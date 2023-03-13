@@ -1,6 +1,8 @@
 # US Ski and Snowboard Node.js Test Solution
 
-Although in the begining thought of hundreds of different ways to sold this problem, I decided to go with an MVC (Model-View-Controller) Design Patterns. And the reason for that is maintenability (and testability if needed). In order to understand the design patterns used thoughout this project you must have solid graps of Javascript ES6, Javascript Functional Programming, the Adapter Design Patters (the Javascript ES6 way), NodeJs Stream APIs, especially the Transform API, and The EventEmitter API.
+In tackling this problem, I initially considered numerous approaches but ultimately opted for the use of the Model-View-Controller (MVC) design pattern, primarily for its emphasis on maintainability and potential for testability. To fully comprehend the design patterns implemented throughout this project, a solid understanding of several key concepts is necessary, including: Javascript ES6, Javascript functional programming, the Adapter design pattern (implemented using Javascript ES6), Node.js Stream APIs (with a particular focus on the Transform API), and the EventEmitter API."
+
+This version emphasizes the benefits of using the MVC design pattern and provides a more concise and organized list of the key concepts that must be understood to effectively analyze the project's design patterns.
 
 ![frontend](https://raw.githubusercontent.com/ericsonweah/us-ski-and-snowboard-nodejs-test-solution/master/public/images/app.png "Frontend")
 
@@ -56,12 +58,24 @@ cd mvc
   http://localhost:3000
 ```
 
-### Key Elements to Understand if you want to understand this MVC Patterns
+
+************************************************************************************************
+                                OPTIONAL TO KNOW: Key Elements to be aware of it you want to understand this MVC Patterns
+************************************************************************************************
 
 
-###  The DBPromise class (the customed sqlite wrapper)
+ <br />
 
+#### 1. The DBPromise class (the customed sqlite wrapper)
+
+##### The class file location
+```bash
+   #File location 
+   /src/model/DBPromise.js
+```
+##### The Class
 ```javascript
+
  "use strict";
 
 /**
@@ -552,13 +566,16 @@ class DBPromise extends require("../Base") {
 
 module.exports = DBPromise;
 
-
-
-
-
-
  ```
-#### The Base Model class 
+#### 2. The Base Model class 
+
+
+##### The class file location
+```bash
+   #File location 
+   /src/model/index.js
+```
+##### The Class
 ```javascript
 "use strict";
 
@@ -611,8 +628,15 @@ class Model extends require("../Base") {
 module.exports = Model;
 
  ```
+#### 3. The HomeController  class 
 
-### The HomeController  class 
+##### The class file location
+```bash
+   #File location 
+   /app/controllers/http/HomeController.js
+```
+##### The Class
+
 ```javascript
 "use strict";
 
@@ -810,7 +834,13 @@ module.exports = HomeController;
 
  ```
 
-### The Base class
+#### 4. The Base class
+```bash
+   #File location 
+  /src/Base.js
+```
+##### The Class
+
 
 ```javascript
  "use strict";
@@ -1575,7 +1605,5 @@ class Base extends require("stream").Transform {
 }
 
 module.exports = Base;
-
- 
 ```
 
