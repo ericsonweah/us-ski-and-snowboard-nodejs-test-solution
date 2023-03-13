@@ -9,14 +9,22 @@ Although in the begining thought of hundreds of different ways to sold this prob
 #### 1. clone this repositoy 
 
 ```bash
-$ yarn add @mongodb-model/model
+git clone git@github.com:ericsonweah/us-ski-and-snowboard-nodejs-test-solution.git mvc
 
 ```
  or 
 
 ```bash
 
-$ npm i @mongodb-model/model
+git clone https://github.com/ericsonweah/us-ski-and-snowboard-nodejs-test-solution.git mvc
+
+```
+
+
+#### 1. cd in the project directory 
+
+```bash
+cd mvc
 
 ```
 
