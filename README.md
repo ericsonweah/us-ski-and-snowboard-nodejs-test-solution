@@ -33,6 +33,11 @@ cd mvc
  yarn 
 ```
 
+#### 3. General SQLite Data (doing it once is recommended)
+```bash
+ node ./data/generate.js
+```
+
 ### Start the Serverr
  <br />
 
