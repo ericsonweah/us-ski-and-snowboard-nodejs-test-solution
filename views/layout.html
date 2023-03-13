@@ -85,7 +85,10 @@
                 $('.content').hide();
 
                 // Search and show
-                $('.content:contains("' + text + '")').show();
+                // $('.content:contains("' + text + '")').show();
+                 if($('.memberName:contains("' + text + '")')){
+                    $('.content:contains("' + text + '")').show();
+                 }
 
             });
 
