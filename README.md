@@ -1,6 +1,6 @@
 # US Ski and Snowboard Node.js Test Solution
 
-In tackling this problem, I initially considered numerous approaches but ultimately opted for the use of the Model-View-Controller (MVC) design pattern, primarily for its emphasis on maintainability and potential for testability. To fully comprehend the design patterns implemented throughout this project, a solid understanding of several key concepts is necessary, including: Javascript ES6, Javascript functional programming, the Adapter design pattern (implemented using Javascript ES6), Node.js Stream APIs (with a particular focus on the Transform API), and the EventEmitter API."
+In tackling this problem, I initially considered numerous approaches but ultimately opted for the use of the Model-View-Controller (MVC) design pattern, primarily for its emphasis on maintainability and potential for testability. To fully comprehend the design patterns implemented throughout this project, a solid understanding of several key concepts is necessary, including: Javascript ES6, Javascript functional programming, the Adapter design pattern (implemented using Javascript ES6), Node.js Stream APIs (with a particular focus on the Transform API), and the EventEmitter API.
 
 This version emphasizes the benefits of using the MVC design pattern and provides a more concise and organized list of the key concepts that must be understood to effectively analyze the project's design patterns.
 
