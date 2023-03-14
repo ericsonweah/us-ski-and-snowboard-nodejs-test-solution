@@ -70,7 +70,7 @@ cd mvc
 
 
 ************************************************************************************************
-    OPTIONAL TO KNOW: Key Elements to be aware of it you want to understand this MVC Patterns
+    OPTIONAL TO KNOW: Key Elements to be aware of if you want to understand this MVC Patterns
 ************************************************************************************************
 
 
